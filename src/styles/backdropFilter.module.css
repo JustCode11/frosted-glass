@@ -22,6 +22,9 @@
     /*border: 1px solid black;*/
     border-radius: 15px;
     backdrop-filter: blur(8px);
+    z-index: 1;
+    -webkit-box-shadow: 1px 6px 15px -2px rgba(0,0,0,0.6); 
+    box-shadow: 1px 6px 15px -2px rgba(0,0,0,0.6);
 }
 
 .glassContent {
@@ -47,4 +50,13 @@
 .icon {
     width: 30px;
     height: 30px;
+}
+
+.source {
+    position: absolute;
+    color: white;
+}
+
+.source a {
+    color: lightblue;
 }
